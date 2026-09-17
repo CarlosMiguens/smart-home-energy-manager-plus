@@ -1,0 +1,9 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Permissões padrão para Smart Home Energy Manager Plus",
+  "windows": ["*"],
+  "permissions": [
+    "core:default"
+  ]
+}

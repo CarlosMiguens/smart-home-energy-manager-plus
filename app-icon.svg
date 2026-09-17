@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081c15" />
+      <stop offset="50%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#2d6a4f" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74c69d" />
+      <stop offset="100%" stop-color="#40916c" />
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffea00" />
+      <stop offset="100%" stop-color="#ffaa00" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bgGrad)" filter="url(#shadow)" />
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="none" stroke="#52796f" stroke-width="4" opacity="0.4" />
+
+  <!-- Videira Grape Leaf Silhouette -->
+  <path d="M256 90 C340 90, 410 160, 410 260 C410 350, 330 400, 256 420 C182 400, 102 350, 102 260 C102 160, 172 90, 256 90 Z" fill="url(#leafGrad)" opacity="0.85" filter="url(#shadow)" />
+  
+  <!-- Grapevine Tendril Accent -->
+  <path d="M256 420 Q240 450, 220 460 Q200 470, 190 455 Q180 435, 200 420" fill="none" stroke="#95d5b2" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Home Outline Inside Leaf -->
+  <path d="M190 280 L256 220 L322 280 V360 H190 Z" fill="#081c15" opacity="0.6" />
+
+  <!-- Electric Lightning Bolt (Energy & Efficiency) -->
+  <polygon points="270,140 180,270 248,270 230,380 340,240 272,240" fill="url(#boltGrad)" filter="url(#shadow)" />
+
+  <!-- Small grape dots representing Videira SC -->
+  <circle cx="160" cy="180" r="14" fill="#52b788" opacity="0.9" />
+  <circle cx="140" cy="210" r="12" fill="#74c69d" opacity="0.9" />
+  <circle cx="175" cy="215" r="11" fill="#95d5b2" opacity="0.9" />
+</svg>

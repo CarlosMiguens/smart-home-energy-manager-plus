@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="64" height="64">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#2d6a4f" />
+    </linearGradient>
+    <linearGradient id="bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffea00" />
+      <stop offset="100%" stop-color="#ff9900" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#g1)"/>
+  <path d="M256 90 C340 90, 410 160, 410 260 C410 350, 330 400, 256 420 C182 400, 102 350, 102 260 C102 160, 172 90, 256 90 Z" fill="#52b788" opacity="0.8"/>
+  <polygon points="270,140 180,270 248,270 230,380 340,240 272,240" fill="url(#bolt)"/>
+</svg>

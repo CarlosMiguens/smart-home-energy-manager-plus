@@ -1,0 +1,22 @@
+[package]
+name = "smart-home-energy-manager-plus"
+version = "1.0.0"
+description = "Smart Home Energy Manager Plus - Videira SC"
+authors = ["Carlos Augusto Roque Miguens"]
+edition = "2021"
+
+[lib]
+name = "smart_home_energy_manager_plus_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["devtools"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.32", features = ["bundled", "chrono", "uuid"] }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+thiserror = "2"

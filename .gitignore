@@ -1,0 +1,30 @@
+# Documentos e arquivos de texto ignorados
+*.pdf
+*.docx
+*.doc
+*.odt
+docs/
+
+# Dependências
+node_modules/
+
+# Builds e diretórios temporários
+dist/
+tmp/
+*.log
+
+# Tauri / Rust builds
+src-tauri/target/
+src-tauri/gen/
+
+# IDE e Sistema Operacional
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store

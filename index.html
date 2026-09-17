@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/SMF.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#081c15" />
+    <meta name="description" content="Smart Home Energy Manager Plus - Gestão residencial de energia em Videira, Santa Catarina" />
+    <title>Smart Home Energy Manager Plus</title>
+    <!-- Google Fonts Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root">
+      <div style="position: fixed; inset: 0; background-color: #081c15; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; font-family: 'Outfit', sans-serif;">
+        <style>
+          @keyframes pulseLogo {
+            0%, 100% { transform: scale(1); filter: drop-shadow(0 0 16px rgba(82, 183, 136, 0.35)); }
+            50% { transform: scale(1.05); filter: drop-shadow(0 0 28px rgba(82, 183, 136, 0.65)); }
+          }
+          @keyframes spinRing {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        </style>
+        <div style="position: relative; width: 140px; height: 140px; display: flex; align-items: center; justify-content: center;">
+          <img src="/SMF.png" alt="Smart Home Energy Plus" style="width: 130px; height: 130px; object-fit: contain; animation: pulseLogo 2.4s infinite ease-in-out;" />
+        </div>
+        <h1 style="color: #f8f9fa; font-size: 1.35rem; font-weight: 700; margin-top: 24px; letter-spacing: -0.02em; text-align: center;">
+          Smart Home Energy Plus
+        </h1>
+        <p style="color: #52b788; font-size: 0.85rem; margin-top: 6px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase;">
+          Videira — Santa Catarina
+        </p>
+        <div style="margin-top: 32px; width: 28px; height: 28px; border: 3px solid rgba(82, 183, 136, 0.2); border-top-color: #52b788; border-radius: 50%; animation: spinRing 0.8s linear infinite;"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

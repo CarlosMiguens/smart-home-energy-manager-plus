@@ -28,3 +28,19 @@ src-tauri/gen/
 Thumbs.db
 [Dd]esktop.ini
 .DS_Store
+
+# Scripts e arquivos temporarios de geracao de video
+__pycache__/
+audio_scenes/
+output_frames/
+compile_video.py
+generate_audio.py
+make_full_video.py
+render_video_core.py
+test_voice.mp3
+test_*.mp4
+test_*.png
+scene_*.png
+screen_*.png
+current_screen.png
+
